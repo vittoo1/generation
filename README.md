@@ -72,11 +72,15 @@
 
 📝 Explicación del Flujo:
 Paso 1: El usuario realiza una acción (ej: click)
+
 Paso 2: El frontend envía solicitud HTTP al backend
+
 Paso 3: El backend:
 Valida la petición
 Construye consulta a la BD
 Paso 4: La BD devuelve los datos solicitados
+
 Paso 5: El backend procesa y envía respuesta al frontend
+
 Paso 6: El frontend actualiza la interfaz
 
