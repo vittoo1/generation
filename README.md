@@ -68,10 +68,4 @@
   - Comunicarse con la BD
   - Garantizar seguridad
 
-### 🗄️ **Base de Datos**
-- **Propósito**: Almacenamiento persistente de información
-- **Tipos principales**:
-  ```mermaid 
-  graph LR
-    A[Base de Datos] --> B[SQL: PostgreSQL, MySQL]
-    A --> C[NoSQL: MongoDB, Firebase] ```
+
