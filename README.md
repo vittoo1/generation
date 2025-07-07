@@ -68,15 +68,6 @@
   - Comunicarse con la BD
   - Garantizar seguridad
 
-subgraph Server
-    B -->|HTTP Request| C[Backend]
-    C -->|Query| D[(Base de Datos)]
-    D -->|ResultSet| C
-    C -->|HTTP Response| B
-end
+![mermaid-ai-diagram-2025-07-07-151704](https://github.com/user-attachments/assets/9a4ee549-9645-454c-b092-eaac838ce40c)
 
-style A fill:#f9f,stroke:#333
-style B fill:#b9f,stroke:#333
-style C fill:#f96,stroke:#333
-style D fill:#6f9,stroke:#333
 
