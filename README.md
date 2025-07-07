@@ -41,31 +41,37 @@
 ---  
 **Conclusión**: La diferencia clave es que las aplicaciones web **procesan datos y responden a acciones del usuario**, mientras que los sitios informativos priorizan la entrega de contenido.  
 
-# 🖥️ Arquitectura Web Básica: Frontend, Backend y Base de Datos
+# 🏗️ Arquitectura Web Básica: Frontend, Backend y Base de Datos
 
-## 1. 📚 Conceptos Clave
+## 1. 📖 Definiciones Fundamentales
 
-### 🎨 **Frontend** 
-*(Capa de presentación)*  
-- **Qué es**: La parte visible con la que interactúa el usuario  
-- **Tecnologías**:  
-  ```mermaid
-  pie 
-      title Tecnologías Frontend
-      "HTML" : 35
-      "CSS" : 30
-      "JavaScript" : 35
+### 🖼️ **Frontend** (Cliente)
+- **Función**: Interfaz visible que interactúa con el usuario
+- **Tecnologías principales**:
+  - HTML (estructura)
+  - CSS (diseño)
+  - JavaScript (lógica interactiva)
+  - Frameworks: React, Vue, Angular
+- **Responsabilidades**:
+  - Mostrar datos
+  - Capturar interacciones
+  - Validar inputs básicos
 
+### 🧠 **Backend** (Servidor)
+- **Función**: Procesar lógica de negocio y gestionar datos
+- **Componentes típicos**:
+  - Servidor web (Node.js, Django, Spring)
+  - API/RESTful services
+  - Autenticación
+- **Tareas clave**:
+  - Procesar solicitudes
+  - Comunicarse con la BD
+  - Garantizar seguridad
 
-  sequenceDiagram
-    participant Usuario
-    participant Frontend as "Frontend (Navegador)"
-    participant Backend as "Backend (Servidor)"
-    participant DB as "Base de Datos"
-    
-    Usuario->>Frontend: Hace clic en "Enviar"
-    Frontend->>Backend: Envía datos (API Request)
-    Backend->>DB: Consulta información
-    DB-->>Backend: Devuelve resultados
-    Backend-->>Frontend: Responde con JSON
-    Frontend->>Usuario: Muestra nueva pantalla
+### 🗄️ **Base de Datos**
+- **Propósito**: Almacenamiento persistente de información
+- **Tipos principales**:
+  ```mermaid 
+  graph LR
+    A[Base de Datos] --> B[SQL: PostgreSQL, MySQL]
+    A --> C[NoSQL: MongoDB, Firebase] ```
