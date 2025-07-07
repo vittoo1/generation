@@ -1,3 +1,5 @@
+![deepseek_mermaid_20250707_5c0969](https://github.com/user-attachments/assets/69080b6e-25a6-40af-9314-a2d99662a0a7)
+![deepseek_mermaid_20250707_5c0969](https://github.com/user-attachments/assets/a4fbd286-a2cb-4085-bb71-cf8e110c2041)
 # Análisis de Sitios Web y Aplicaciones Web  
 
 ## 1. Sitios Web Informativos  
