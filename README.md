@@ -86,3 +86,4 @@ Paso 5: El backend procesa y envía respuesta al frontend
 
 Paso 6: El frontend actualiza la interfaz
 
+![deepseek_mermaid_20250707_ab02c8](https://github.com/user-attachments/assets/0b43c436-7269-4e44-be81-d17b605845fe)
