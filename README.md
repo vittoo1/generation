@@ -70,4 +70,13 @@
 
 ![mermaid-ai-diagram-2025-07-07-151704](https://github.com/user-attachments/assets/9a4ee549-9645-454c-b092-eaac838ce40c)
 
+📝 Explicación del Flujo:
+Paso 1: El usuario realiza una acción (ej: click)
+Paso 2: El frontend envía solicitud HTTP al backend
+Paso 3: El backend:
+Valida la petición
+Construye consulta a la BD
+Paso 4: La BD devuelve los datos solicitados
+Paso 5: El backend procesa y envía respuesta al frontend
+Paso 6: El frontend actualiza la interfaz
 
